@@ -1,0 +1,31 @@
+data:
+  evfile : /scratch/Project-Fermi/2311-02372-OJ287/test_run/Output/list.txt
+  scfile : /scratch/Project-Fermi/2311-02372-OJ287/test_run/spacecraft/L24031102101907170E9861_SC00.fits
+
+binning:
+  roiwidth   : 15
+  binsz      : 0.1
+  binsperdec : 8
+
+selection :
+  emin : 100.0
+  emax : 255487.0
+  zmax    : 90
+  evclass : 128
+  evtype  : 3
+  ra: 133.70364541666666
+  dec: 20.108510833333334
+  tmin: 239557417
+  tmax: 277227781
+
+gtlike:
+  edisp : True
+  irfs : 'P8R3_SOURCE_V3'
+  edisp_disable : ['isodiff']
+  edisp_bins : -2
+
+model:
+  src_roiwidth : 25
+  galdiff  : '/scratch/Project-Fermi/2311-02372-OJ287/test_run/Diffuse/gll_iem_v07.fits'
+  isodiff  : '/scratch/Project-Fermi/2311-02372-OJ287/test_run/Diffuse/iso_P8R3_SOURCE_V3_v1.txt'
+  catalogs : ['4FGL-DR3']

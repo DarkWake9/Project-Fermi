@@ -1,0 +1,9 @@
+Julian day began at 12 Noon on Jan 1 4713 bc
+
+12 Noon Jan 1 2000 was Julian day 2451546
+
+Assume all observations are made at 12 Noon
+
+
+redshift=0 for 4 and 5 segments
+segment 5 nbins=10

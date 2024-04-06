@@ -1,0 +1,1 @@
+/scratch/Project-Fermi/2311-02372-OJ287/test_run/Output/ltcube_00.fits

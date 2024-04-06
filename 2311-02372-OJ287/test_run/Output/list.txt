@@ -1,0 +1,4 @@
+/scratch/Project-Fermi/2311-02372-OJ287/test_run/Photons/L24031102101907170E9861_PH00.fits
+/scratch/Project-Fermi/2311-02372-OJ287/test_run/Photons/L24031102101907170E9861_PH01.fits
+/scratch/Project-Fermi/2311-02372-OJ287/test_run/Photons/L24031102101907170E9861_PH02.fits
+/scratch/Project-Fermi/2311-02372-OJ287/test_run/Photons/L24031102101907170E9861_PH03.fits

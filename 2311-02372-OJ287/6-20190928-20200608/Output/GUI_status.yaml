@@ -1,0 +1,57 @@
+Coords: OJ 287
+Disk: true
+EBL_model: Saldana-Lopez et al. (2021)
+Energ: 100, 300000
+Free_radius_custom: false
+Free_radius_standard: true
+Freeze_Gal: false
+Freeze_Iso: false
+Freeze_targ_shape: false
+Gauss2D: false
+High_resolution: false
+High_sensitivity: false
+LC: true
+LC_Nbins: 20
+LC_Ncores: 1
+N_iter: 1
+Only_norm: false
+SED: true
+SED_Nbins: 10
+Standard: true
+TS_map: true
+TS_threshold: '50.0'
+Use_external_ltcube: false
+VHE: Add VHE data?
+adaptive_binning: false
+catalog: 4FGL-DR3
+cataloged: 'Yes'
+change_minimizer: false
+change_model: false
+configfile: Configuration file (yaml)
+date: 28/09/2019 12:00:00
+date2: 08/06/2020 12:00:00
+delete_sources: false
+diagnostic: true
+diffuse: /scratch/Project-Fermi/2311-02372-OJ287/6-20190928-20200608/Diffuse
+dir_photon: /scratch/Project-Fermi/2311-02372-OJ287/6-20190928-20200608/Photons
+extension: false
+external_ltcube: ''
+find_sources: true
+fit_TS_cut: '16'
+free_radius: ''
+max_size: 1.0
+min_sep: 0.5
+min_sig: 5.0
+nickname: Target name
+output: ./Output
+output_format: pdf
+redshift_value: '0.0'
+reloc: false
+remove_targ_from_model: true
+spacecraft: /scratch/Project-Fermi/2311-02372-OJ287/6-20190928-20200608/spacecraft/L24031613563107170E9856_SC00.fits
+test_source_index: 2.0
+use_local_index: false
+which_MCMC_model: PLEC
+which_minimizer: NEWMINUIT
+which_model: Select...
+which_sources_deleted: ''
