@@ -1,4 +1,4 @@
-Coords: OJ 287
+Coords: OJ287
 Disk: true
 EBL_model: Saldana-Lopez et al. (2021)
 Energ: 100, 300000
@@ -29,7 +29,7 @@ change_minimizer: false
 change_model: false
 configfile: Configuration file (yaml)
 date: 18/09/2015 12:00:00
-date2: 27/05/2016 12:00:00
+date2: 27/05/2016 12:00:01
 delete_sources: false
 diagnostic: true
 diffuse: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/Diffuse
@@ -45,13 +45,13 @@ min_sig: 5.0
 nickname: Target name
 output: ./Output
 output_format: pdf
-redshift_value: '0.0308'
+redshift_value: '0.0306'
 reloc: false
 remove_targ_from_model: true
-spacecraft: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L24031503396007170E9890_SC00.fits
+spacecraft: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L2405061221168ED418CE49_SC00.fits
 test_source_index: 2.0
 use_local_index: false
-which_MCMC_model: PLEC
+which_MCMC_model: PowerLaw
 which_minimizer: NEWMINUIT
 which_model: Select...
 which_sources_deleted: ''

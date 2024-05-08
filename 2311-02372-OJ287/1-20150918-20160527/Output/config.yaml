@@ -1,6 +1,6 @@
 data:
   evfile : /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/Output/list.txt
-  scfile : /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L24031503396007170E9890_SC00.fits
+  scfile : /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L2405061221168ED418CE49_SC00.fits
 
 binning:
   roiwidth   : 15
@@ -16,7 +16,7 @@ selection :
   ra: 133.70364541666666
   dec: 20.108510833333334
   tmin: 464270401
-  tmax: 486043201
+  tmax: 486043202
 
 gtlike:
   edisp : True

@@ -14,7 +14,7 @@ components:
 - data:
     evfile: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/Output/ft1_00.fits
     ltcube: null
-    scfile: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L24031503396007170E9890_SC00.fits
+    scfile: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L2405061221168ED418CE49_SC00.fits
   gtlike:
     bexpmap_base: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/Output/bexpmap_00.fits
     bexpmap_roi_base: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/Output/bexpmap_roi_00.fits
@@ -26,7 +26,7 @@ data:
   cacheft1: true
   evfile: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/Output/list.txt
   ltcube: null
-  scfile: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L24031503396007170E9890_SC00.fits
+  scfile: /scratch/Project-Fermi/2311-02372-OJ287/1-20150918-20160527/spacecraft/L2405061221168ED418CE49_SC00.fits
 extension:
   fit_ebin: false
   fit_position: false
@@ -207,8 +207,8 @@ selection:
   radius: null
   roicut: 'no'
   target: null
-  tmax: 474068161.0
-  tmin: 472979521.0
+  tmax: 474068161.45
+  tmin: 472979521.4
   zmax: 90.0
 sourcefind:
   free_params: []
