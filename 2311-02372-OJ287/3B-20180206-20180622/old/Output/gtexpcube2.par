@@ -1,9 +1,9 @@
 # $Header: /nfs/slac/g/glast/ground/cvs/Likelihood/pfiles/gtexpcube2.par,v 1.13 2015/01/16 05:36:26 jchiang Exp $
 #
 # General parameters.
-infile,f,a,"/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Output/ltcube_00.fits",,,"Livetime cube file"
+infile,f,a,"/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Output/ltcube_00.fits",,,"Livetime cube file"
 cmap,f,a,"none",,,"Counts map file"
-outfile,f,a,"/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Output/bexpmap_roi_00.fits",,,"Output file name"
+outfile,f,a,"/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Output/bexpmap_roi_00.fits",,,"Output file name"
 irfs,s,a,"P8R3_SOURCE_V3",,,"Response functions to use"
 evtype,i,h,INDEF,,,"Event type selections"
 

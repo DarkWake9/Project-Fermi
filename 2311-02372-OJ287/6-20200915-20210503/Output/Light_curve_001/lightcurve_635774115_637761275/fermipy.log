@@ -1,8 +1,8 @@
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTAnalysis.__init__(): 
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTAnalysis.__init__(): 
 --------------------------------------------------------------------------------
 fermipy version v1.2+2.gfbd4 
 ScienceTools version 2.2.0
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTAnalysis.print_config(): Configuration:
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTAnalysis.print_config(): Configuration:
 binning:
   binsperdec: 8.0
   binsz: 0.1
@@ -17,21 +17,21 @@ binning:
   roiwidth: 15.0
 components:
 - data:
-    evfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/ft1_00.fits
+    evfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/ft1_00.fits
     ltcube: null
-    scfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
+    scfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
   gtlike:
-    bexpmap_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/bexpmap_00.fits
-    bexpmap_roi_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/bexpmap_roi_00.fits
-    srcmap_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/srcmap_00.fits
+    bexpmap_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/bexpmap_00.fits
+    bexpmap_roi_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/bexpmap_roi_00.fits
+    srcmap_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/srcmap_00.fits
 curvature:
   Index2: 0.6667
   free_Index2: false
 data:
   cacheft1: true
-  evfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/list.txt
+  evfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/list.txt
   ltcube: null
-  scfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
+  scfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
 extension:
   fit_ebin: false
   fit_position: false
@@ -54,14 +54,14 @@ extension:
   write_fits: true
   write_npy: true
 fileio:
-  logfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/fermipy.log
-  outdir: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275
+  logfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/fermipy.log
+  outdir: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275
   outdir_regex:
   - \.fits$|\.fit$|\.xml$|\.npy$|\.png$|\.pdf$|\.yaml$
   savefits: true
   scratchdir: /scratch
   usescratch: false
-  workdir: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output
+  workdir: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output
   workdir_regex:
   - \.fits$|\.fit$|\.xml$|\.npy$
 gtlike:
@@ -135,14 +135,14 @@ model:
   - 4FGL-DR3
   diffuse: []
   diffuse_dir:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output
   diffuse_xml: []
   extdir: null
   extract_diffuse: false
   galdiff:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Diffuse/gll_iem_v07.fits
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Diffuse/gll_iem_v07.fits
   isodiff:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
   limbdiff: []
   merge_sources: true
   sources: []
@@ -250,9 +250,9 @@ tsmap:
   write_fits: true
   write_npy: true
 
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTAnalysis._create_component(): Creating Analysis Component: 00
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.__init__(): Automatically setting selection radius to 11.106601717798213 deg
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.print_config(): Configuration:
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTAnalysis._create_component(): Creating Analysis Component: 00
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.__init__(): Automatically setting selection radius to 11.106601717798213 deg
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.print_config(): Configuration:
 binning:
   binsperdec: 8.0
   binsz: 0.1
@@ -267,26 +267,26 @@ binning:
   roiwidth: 15.0
 data:
   cacheft1: true
-  evfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/ft1_00.fits
+  evfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/ft1_00.fits
   ltcube: null
-  scfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
+  scfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
 file_suffix: _00
 fileio:
-  logfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/fermipy.log
-  outdir: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275
+  logfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/fermipy.log
+  outdir: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275
   outdir_regex:
   - \.fits$|\.fit$|\.xml$|\.npy$|\.png$|\.pdf$|\.yaml$
   savefits: true
   scratchdir: /scratch
   usescratch: false
-  workdir: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275
+  workdir: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275
   workdir_regex:
   - \.fits$|\.fit$|\.xml$|\.npy$
 gtlike:
   bexpmap: null
-  bexpmap_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/bexpmap_00.fits
+  bexpmap_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/bexpmap_00.fits
   bexpmap_roi: null
-  bexpmap_roi_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/bexpmap_roi_00.fits
+  bexpmap_roi_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/bexpmap_roi_00.fits
   convolve: true
   edisp: true
   edisp_bins: -2
@@ -300,7 +300,7 @@ gtlike:
   rfactor: 2
   src_expscale: {}
   srcmap: null
-  srcmap_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/srcmap_00.fits
+  srcmap_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/srcmap_00.fits
   use_external_srcmap: false
   use_scaled_srcmap: true
   wmap: null
@@ -320,14 +320,14 @@ model:
   - 4FGL-DR3
   diffuse: []
   diffuse_dir:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output
   diffuse_xml: []
   extdir: null
   extract_diffuse: false
   galdiff:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Diffuse/gll_iem_v07.fits
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Diffuse/gll_iem_v07.fits
   isodiff:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
   limbdiff: []
   merge_sources: true
   sources: []
@@ -376,656 +376,656 @@ selection:
   tmin: 635774115
   zmax: 90.0
 
-2024-04-06 17:21:56 INFO    lightcurve_635774115_637761275 GTAnalysis._process_lc_bin(): Fitting time range 635774115 637761274
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Running setup.
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Running setup for component 00
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtselect.
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtselect infile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/ft1_00.fits outfile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/ft1_00.fits ra=133.70364541666666 dec=20.108510833333334 rad=11.106601717798213 tmin=635774115.0 tmax=637761274.0 emin=100.0 emax=300000.0 zmin=0.0 zmax=90.0 evclass=128 evtype=3 convtype=-1 phasemin=0.0 phasemax=1.0 evtable="EVENTS" chatter=3 clobber=yes debug=no gui=no mode="ql"
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtselect version HEAD
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Applying filter string: ((EVENT_CLASS&o200) != o0) && angsep(RA,DEC,133.7036454,20.10851083) < 11.10660172 && ((EVENT_TYPE&o3) != o0) && angsep(RA,DEC,133.7036454,20.10851083) < 11.10660172 && 100 < ENERGY && ENERGY <= 300000 && 635774115 < TIME && TIME <= 637761274 && 0 < ZENITH_ANGLE && ZENITH_ANGLE <= 90 && gtifilter()
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Done.
-2024-04-06 17:21:56 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtselect. Execution time: 0.32 s
-2024-04-06 17:21:56 INFO    lightcurve_635774115_637761275 GTBinnedAnalysis._create_ltcube(): Generating local LT cube.
-2024-04-06 17:21:57 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Loading LT Cube /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits
-2024-04-06 17:21:57 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Creating PSF model
-2024-04-06 17:21:57 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtbin.
-2024-04-06 17:21:57 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtbin evfile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/ft1_00.fits scfile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits outfile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/ccube_00.fits algorithm="ccube" ebinalg="LOG" emin=100.0 emax=300000.0 enumbins=28 ebinfile=NONE tbinalg="LIN" tbinfile=NONE nxpix=150 nypix=150 binsz=0.1 coordsys="CEL" xref=133.70364541666666 yref=20.108510833333334 axisrot=0.0 rafield="RA" decfield="DEC" proj="AIT" hpx_ordering_scheme="RING" hpx_order=3 hpx_ebin=yes hpx_region="" evtable="EVENTS" sctable="SC_DATA" efield="ENERGY" tfield="TIME" chatter=3 clobber=yes debug=no gui=no mode="ql"
-2024-04-06 17:21:57 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtbin version HEAD
-2024-04-06 17:21:58 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtbin. Execution time: 0.41 s
-2024-04-06 17:21:58 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtexpcube2.
-2024-04-06 17:21:58 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtexpcube2 infile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits cmap=none outfile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/bexpmap_00.fits irfs="P8R3_SOURCE_V3" evtype=3 edisp_bins=-2 nxpix=360 nypix=180 binsz=1.0 coordsys="CEL" xref=0.0 yref=0.0 axisrot=0.0 proj="CAR" ebinalg="LOG" emin=100.0 emax=300000.0 enumbins=28 ebinfile="NONE" hpx_ordering_scheme="RING" hpx_order=6 bincalc="EDGE" ignorephi=no thmax=180.0 thmin=0.0 table="EXPOSURE" chatter=3 clobber=yes debug=no mode="ql"
-2024-04-06 17:21:58 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtexpcube2 version HEAD
-2024-04-06 17:21:58 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Using evtype=3 (i.e., FRONT/BACK irfs)
-2024-04-06 17:21:58 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): ResponseFunctions::load: IRF used: P8R3_SOURCE_V3
-2024-04-06 17:21:58 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): event_types:  0  1
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Computing binned exposure map....................!
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtexpcube2. Execution time: 4.80 s
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtexpcube2.
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtexpcube2 infile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits cmap=none outfile=/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/bexpmap_roi_00.fits irfs="P8R3_SOURCE_V3" evtype=3 edisp_bins=0 nxpix=150 nypix=150 binsz=0.1 coordsys="CEL" xref=133.70364541666666 yref=20.108510833333334 axisrot=0.0 proj="CAR" ebinalg="LOG" emin=100.0 emax=300000.0 enumbins=28 ebinfile="NONE" hpx_ordering_scheme="RING" hpx_order=6 bincalc="EDGE" ignorephi=no thmax=180.0 thmin=0.0 table="EXPOSURE" chatter=3 clobber=yes debug=no mode="ql"
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtexpcube2 version HEAD
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Using evtype=3 (i.e., FRONT/BACK irfs)
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): ResponseFunctions::load: IRF used: P8R3_SOURCE_V3
-2024-04-06 17:22:03 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): event_types:  0  1
-2024-04-06 17:22:04 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Computing binned exposure map....................!
-2024-04-06 17:22:04 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtexpcube2. Execution time: 1.76 s
-2024-04-06 17:22:06 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Finished setup for component 00
-2024-04-06 17:22:06 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Creating BinnedAnalysis for component 00.
-2024-04-06 17:22:06 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Creating BinnedObs
-2024-04-06 17:22:06 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): {'srcMaps': '/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/srcmap_00.fits', 'expCube': '/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits', 'binnedExpMap': '/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/bexpmap_00.fits', 'irfs': 'P8R3_SOURCE_V3'}
-2024-04-06 17:22:07 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Creating BinnedAnalysis
-2024-04-06 17:22:07 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): {'srcModel': '/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/srcmdl_00.xml', 'optimizer': 'MINUIT', 'wmap': None, 'convolve': True, 'resample': True, 'minbinsz': 0.05, 'resamp_fact': 2, 'edisp_bins': -2}
-2024-04-06 17:22:12 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Disabling energy dispersion for isodiff
-2024-04-06 17:22:12 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Computing fixed weights
-2024-04-06 17:22:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Updating source maps
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source properties
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0758.9+2703
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0758.9+2703
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0803.0+2439
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0803.0+2439
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0803.5+2046
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0803.5+2046
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0809.3+3121
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0809.3+3121
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0812.3+1143
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0812.3+1143
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0812.6+2821
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0812.6+2821
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0814.4+2941
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0814.4+2941
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0815.9+2951
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0815.9+2951
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0816.9+2050
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0816.9+2050
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0817.1+1955
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0817.1+1955
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0818.4+2816
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0818.4+2816
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0818.7+3153
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0818.7+3153
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0819.0+2746
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0819.0+2746
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0820.9+2353
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0820.9+2353
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0821.1+1007
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0821.1+1007
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0823.3+2224
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0823.3+2224
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0824.4+2440
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0824.4+2440
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0828.0+2307
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0829.0+1755
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.0+1755
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0829.4+0857
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.4+0857
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0830.8+2410
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0831.4+2631
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.4+2631
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0831.5+1747
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.5+1747
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0832.2+2753
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0832.2+2753
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0835.7+0936
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.7+0936
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0835.8+1517
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0836.2+2141
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0837.3+1458
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.3+1458
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0837.4+2454
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0839.4+1803
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0840.8+1317
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0840.8+1317
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0844.5+3035
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0844.5+3035
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0847.2+1134
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0847.2+1134
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0849.5+2710
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0852.2+2834
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0852.2+2834
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0854.0+2753
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.0+2753
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0854.8+2006
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0856.8+2056
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0858.1+1405
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0902.4+2051
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0903.5+2847
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0903.5+2847
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0904.0+2724
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0904.0+2724
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0905.6+1358
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0907.1+0856
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0907.1+0856
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0908.9+2311
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0908.9+2311
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0909.7+3104
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0909.7+3104
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0910.6+2247
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0912.2+2800
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.2+2800
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0912.5+1556
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0915.9+2933
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0915.9+2933
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0921.7+2336
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0924.0+2816
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0924.0+2816
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0925.7+3126
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0925.7+3126
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0927.2+2454
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0927.2+2454
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0932.7+1041
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0932.7+1041
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0935.3+0901
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0935.3+0901
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0935.5+1152
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0935.5+1152
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0936.5+1847
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0936.5+1847
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0941.9+2724
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0941.9+2724
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0942.3+2842
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0942.3+2842
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0947.6+2215
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0947.6+2215
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source galdiff
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for galdiff
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source isodiff
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for isodiff
-2024-04-06 17:22:15 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Finished setup.
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
-2024-04-06 17:22:17 INFO    lightcurve_635774115_637761275 GTBinnedAnalysis.write_xml(): Writing /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/base_00.xml...
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Starting
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): LogLike: -10791.792218
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0902.4+2051     : ['norm']
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0904.0+2724     : ['norm']
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm']
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0828.0+2307     : ['Prefactor']
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
-2024-04-06 17:22:17 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0828.0+2307
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0902.4+2051
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0904.0+2724
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0904.0+2724
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10787.559 DeltaLogLike:        4.233 
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['norm']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['norm']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Prefactor']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0904.0+2724     : ['norm']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0830.8+2410 npred:      9.056 TS:        nan
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0830.8+2410     : ['norm']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0830.8+2410
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10787.559 DeltaLogLike:        0.001 
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      9.501 TS:      0.867
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['norm']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0839.4+1803 npred:      8.758 TS:        nan
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0839.4+1803     : ['Prefactor']
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
-2024-04-06 17:22:18 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0839.4+1803
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10787.529 DeltaLogLike:        0.030 
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     11.901 TS:      1.000
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0836.2+2141 npred:      8.126 TS:        nan
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10786.300 DeltaLogLike:        1.229 
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     30.933 TS:      4.804
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0858.1+1405 npred:      5.979 TS:        nan
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0858.1+1405     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0858.1+1405
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10786.300 DeltaLogLike:        0.000 
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      6.176 TS:      0.254
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0849.5+2710 npred:      5.049 TS:        nan
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0849.5+2710     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0849.5+2710
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10785.781 DeltaLogLike:        0.520 
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.004 TS:     -0.001
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0835.8+1517 npred:      4.959 TS:        nan
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0835.8+1517     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10785.517 DeltaLogLike:        0.264 
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     13.819 TS:      1.335
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0823.3+2224 npred:      4.260 TS:        nan
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0823.3+2224     : ['Prefactor']
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:19 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0823.3+2224
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0823.3+2224
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10785.202 DeltaLogLike:        0.315 
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.002 TS:     -0.000
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0823.3+2224     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0831.4+2631 npred:      4.125 TS:        nan
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0831.4+2631     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.4+2631
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0831.4+2631
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.633 DeltaLogLike:        0.569 
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.000 TS:     -0.000
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.4+2631     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0837.4+2454 npred:      4.022 TS:        nan
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.403 DeltaLogLike:        0.231 
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     11.621 TS:      1.147
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0824.4+2440 npred:      3.208 TS:        nan
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0824.4+2440     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0824.4+2440
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0824.4+2440
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.401 DeltaLogLike:        0.002 
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      2.796 TS:      0.184
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0824.4+2440     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0840.8+1317 npred:      3.082 TS:        nan
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0840.8+1317     : ['norm']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0840.8+1317
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0840.8+1317
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.401 DeltaLogLike:        0.000 
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      2.946 TS:      0.419
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0840.8+1317     : ['norm']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0921.7+2336 npred:      3.037 TS:        nan
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0921.7+2336     : ['Prefactor']
-2024-04-06 17:22:20 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0921.7+2336
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.356 DeltaLogLike:        0.044 
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      6.762 TS:      0.299
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0912.5+1556 npred:      2.852 TS:        nan
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0912.5+1556     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.029 DeltaLogLike:        0.327 
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      5.720 TS:      6.750
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0856.8+2056 npred:      2.670 TS:        nan
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0856.8+2056     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0856.8+2056
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.694 DeltaLogLike:        0.335 
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.000 TS:     -0.000
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0924.0+2816 npred:      1.814 TS:        nan
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0924.0+2816     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0924.0+2816
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0924.0+2816
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.599 DeltaLogLike:        0.095 
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.001 TS:     -0.000
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0924.0+2816     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0852.2+2834 npred:      1.512 TS:        nan
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0852.2+2834     : ['Prefactor']
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0852.2+2834
-2024-04-06 17:22:21 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0852.2+2834
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.597 DeltaLogLike:        0.002 
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.716 TS:      0.003
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0852.2+2834     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0927.2+2454 npred:      1.383 TS:        nan
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0927.2+2454     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0927.2+2454
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0927.2+2454
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.424 DeltaLogLike:        0.173 
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.000 TS:     -0.000
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0927.2+2454     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0820.9+2353 npred:      1.345 TS:        nan
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0820.9+2353     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0820.9+2353
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0820.9+2353
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.233 DeltaLogLike:        0.191 
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.001 TS:     -0.000
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0820.9+2353     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0915.9+2933 with npred      0.978
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0832.2+2753 with npred      0.915
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0908.9+2311 with npred      0.911
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0903.5+2847 with npred      0.736
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0829.0+1755 with npred      0.730
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0905.6+1358 with npred      0.682
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0847.2+1134 with npred      0.449
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0941.9+2724 with npred      0.360
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0818.4+2816 with npred      0.348
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0936.5+1847 with npred      0.301
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0819.0+2746 with npred      0.216
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0835.7+0936 with npred      0.194
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0821.1+1007 with npred      0.188
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0816.9+2050 with npred      0.164
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0844.5+3035 with npred      0.163
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0812.3+1143 with npred      0.156
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0925.7+3126 with npred      0.138
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0829.4+0857 with npred      0.131
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0758.9+2703 with npred      0.120
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0935.3+0901 with npred      0.115
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0812.6+2821 with npred      0.107
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0831.5+1747 with npred      0.098
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0817.1+1955 with npred      0.094
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0837.3+1458 with npred      0.092
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0815.9+2951 with npred      0.090
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0932.7+1041 with npred      0.076
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0909.7+3104 with npred      0.068
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0814.4+2941 with npred      0.062
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0803.5+2046 with npred      0.052
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0854.0+2753 with npred      0.043
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0818.7+3153 with npred      0.040
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0803.0+2439 with npred      0.038
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0942.3+2842 with npred      0.032
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0809.3+3121 with npred      0.030
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0947.6+2215 with npred      0.018
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0935.5+1152 with npred      0.009
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0912.2+2800 with npred      0.004
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0907.1+0856 with npred      0.001
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting shape 4FGL J0854.8+2006 TS:     31.841
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10781.615 DeltaLogLike:        1.618 
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Finished
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): LogLike: -10781.615417 Delta-LogLike: 10.176801
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Execution time: 4.95 s
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0856.8+2056     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0902.4+2051     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0839.4+1803     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0908.9+2311     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0912.5+1556     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0831.5+1747     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0858.1+1405     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0829.0+1755     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0835.8+1517     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.3+1458     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0905.6+1358     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0830.8+2410     : ['norm']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0828.0+2307     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0921.7+2336     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0849.5+2710     : ['Prefactor']
-2024-04-06 17:22:22 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0828.0+2307
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.0+1755
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0829.0+1755
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0830.8+2410
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.5+1747
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0831.5+1747
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
-2024-04-06 17:22:24 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.3+1458
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.3+1458
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0839.4+1803
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0849.5+2710
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0856.8+2056
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
-2024-04-06 17:22:25 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0858.1+1405
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0902.4+2051
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0905.6+1358
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0908.9+2311
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0908.9+2311
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
-2024-04-06 17:22:26 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0921.7+2336
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10779.422 DeltaLogLike:        2.193 
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis._fit_lc(): Free Sources Norm: ['4FGL J0912.5+1556', '4FGL J0836.2+2141', '4FGL J0910.6+2247', '4FGL J0835.8+1517', '4FGL J0837.4+2454', '4FGL J0854.8+2006']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis._fit_lc(): Free Sources Shape: ['4FGL J0854.8+2006']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0912.5+1556     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0835.8+1517     : ['Prefactor']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:27 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10779.421 DeltaLogLike:        0.001 
-2024-04-06 17:22:28 INFO    lightcurve_635774115_637761275 GTBinnedAnalysis.write_xml(): Writing /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_635774115_637761275/fit_model_final_00.xml...
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10781.046 DeltaLogLike:        0.006 
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
-2024-04-06 17:22:28 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10781.056 DeltaLogLike:        0.001 
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
-2024-04-06 17:22:29 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
-2024-04-06 17:22:29 INFO    lightcurve_635774115_637761275 GTAnalysis._process_lc_bin(): Finished time range 635774115 637761274
+2024-05-11 14:34:11 INFO    lightcurve_635774115_637761275 GTAnalysis._process_lc_bin(): Fitting time range 635774115 637761274
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Running setup.
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Running setup for component 00
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtselect.
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtselect infile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/ft1_00.fits outfile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/ft1_00.fits ra=133.70364541666666 dec=20.108510833333334 rad=11.106601717798213 tmin=635774115.0 tmax=637761274.0 emin=100.0 emax=300000.0 zmin=0.0 zmax=90.0 evclass=128 evtype=3 convtype=-1 phasemin=0.0 phasemax=1.0 evtable="EVENTS" chatter=3 clobber=yes debug=no gui=no mode="ql"
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtselect version HEAD
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Applying filter string: ((EVENT_CLASS&o200) != o0) && angsep(RA,DEC,133.7036454,20.10851083) < 11.10660172 && ((EVENT_TYPE&o3) != o0) && angsep(RA,DEC,133.7036454,20.10851083) < 11.10660172 && 100 < ENERGY && ENERGY <= 300000 && 635774115 < TIME && TIME <= 637761274 && 0 < ZENITH_ANGLE && ZENITH_ANGLE <= 90 && gtifilter()
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Done.
+2024-05-11 14:34:11 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtselect. Execution time: 0.29 s
+2024-05-11 14:34:11 INFO    lightcurve_635774115_637761275 GTBinnedAnalysis._create_ltcube(): Generating local LT cube.
+2024-05-11 14:34:12 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Loading LT Cube /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits
+2024-05-11 14:34:12 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Creating PSF model
+2024-05-11 14:34:12 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtbin.
+2024-05-11 14:34:12 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtbin evfile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/ft1_00.fits scfile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits outfile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/ccube_00.fits algorithm="ccube" ebinalg="LOG" emin=100.0 emax=300000.0 enumbins=28 ebinfile=NONE tbinalg="LIN" tbinfile=NONE nxpix=150 nypix=150 binsz=0.1 coordsys="CEL" xref=133.70364541666666 yref=20.108510833333334 axisrot=0.0 rafield="RA" decfield="DEC" proj="AIT" hpx_ordering_scheme="RING" hpx_order=3 hpx_ebin=yes hpx_region="" evtable="EVENTS" sctable="SC_DATA" efield="ENERGY" tfield="TIME" chatter=3 clobber=yes debug=no gui=no mode="ql"
+2024-05-11 14:34:12 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtbin version HEAD
+2024-05-11 14:34:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtbin. Execution time: 0.37 s
+2024-05-11 14:34:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtexpcube2.
+2024-05-11 14:34:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtexpcube2 infile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits cmap=none outfile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/bexpmap_00.fits irfs="P8R3_SOURCE_V3" evtype=3 edisp_bins=-2 nxpix=360 nypix=180 binsz=1.0 coordsys="CEL" xref=0.0 yref=0.0 axisrot=0.0 proj="CAR" ebinalg="LOG" emin=100.0 emax=300000.0 enumbins=28 ebinfile="NONE" hpx_ordering_scheme="RING" hpx_order=6 bincalc="EDGE" ignorephi=no thmax=180.0 thmin=0.0 table="EXPOSURE" chatter=3 clobber=yes debug=no mode="ql"
+2024-05-11 14:34:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtexpcube2 version HEAD
+2024-05-11 14:34:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Using evtype=3 (i.e., FRONT/BACK irfs)
+2024-05-11 14:34:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): ResponseFunctions::load: IRF used: P8R3_SOURCE_V3
+2024-05-11 14:34:13 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): event_types:  0  1
+2024-05-11 14:34:19 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Computing binned exposure map....................!
+2024-05-11 14:34:20 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtexpcube2. Execution time: 6.91 s
+2024-05-11 14:34:20 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Running gtexpcube2.
+2024-05-11 14:34:20 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): time -p gtexpcube2 infile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits cmap=none outfile=/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/bexpmap_roi_00.fits irfs="P8R3_SOURCE_V3" evtype=3 edisp_bins=0 nxpix=150 nypix=150 binsz=0.1 coordsys="CEL" xref=133.70364541666666 yref=20.108510833333334 axisrot=0.0 proj="CAR" ebinalg="LOG" emin=100.0 emax=300000.0 enumbins=28 ebinfile="NONE" hpx_ordering_scheme="RING" hpx_order=6 bincalc="EDGE" ignorephi=no thmax=180.0 thmin=0.0 table="EXPOSURE" chatter=3 clobber=yes debug=no mode="ql"
+2024-05-11 14:34:20 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): This is gtexpcube2 version HEAD
+2024-05-11 14:34:20 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Using evtype=3 (i.e., FRONT/BACK irfs)
+2024-05-11 14:34:20 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): ResponseFunctions::load: IRF used: P8R3_SOURCE_V3
+2024-05-11 14:34:20 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): event_types:  0  1
+2024-05-11 14:34:22 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Computing binned exposure map....................!
+2024-05-11 14:34:22 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.run_gtapp(): Finished gtexpcube2. Execution time: 2.41 s
+2024-05-11 14:34:23 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis.setup(): Finished setup for component 00
+2024-05-11 14:34:23 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Creating BinnedAnalysis for component 00.
+2024-05-11 14:34:23 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Creating BinnedObs
+2024-05-11 14:34:23 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): {'srcMaps': '/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/srcmap_00.fits', 'expCube': '/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/ltcube_00.fits', 'binnedExpMap': '/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/bexpmap_00.fits', 'irfs': 'P8R3_SOURCE_V3'}
+2024-05-11 14:34:23 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Creating BinnedAnalysis
+2024-05-11 14:34:23 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): {'srcModel': '/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/srcmdl_00.xml', 'optimizer': 'MINUIT', 'wmap': None, 'convolve': True, 'resample': True, 'minbinsz': 0.05, 'resamp_fact': 2, 'edisp_bins': -2}
+2024-05-11 14:34:29 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Disabling energy dispersion for isodiff
+2024-05-11 14:34:29 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Computing fixed weights
+2024-05-11 14:34:30 DEBUG   lightcurve_635774115_637761275 GTBinnedAnalysis._create_binned_analysis(): Updating source maps
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source properties
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0758.9+2703
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0758.9+2703
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0803.0+2439
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0803.0+2439
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0803.5+2046
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0803.5+2046
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0809.3+3121
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0809.3+3121
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0812.3+1143
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0812.3+1143
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0812.6+2821
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0812.6+2821
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0814.4+2941
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0814.4+2941
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0815.9+2951
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0815.9+2951
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0816.9+2050
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0816.9+2050
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0817.1+1955
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0817.1+1955
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0818.4+2816
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0818.4+2816
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0818.7+3153
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0818.7+3153
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0819.0+2746
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0819.0+2746
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0820.9+2353
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0820.9+2353
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0821.1+1007
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0821.1+1007
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0823.3+2224
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0823.3+2224
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0824.4+2440
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0824.4+2440
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0828.0+2307
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0829.0+1755
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.0+1755
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0829.4+0857
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.4+0857
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0830.8+2410
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0831.4+2631
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.4+2631
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0831.5+1747
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.5+1747
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0832.2+2753
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0832.2+2753
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0835.7+0936
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.7+0936
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0835.8+1517
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0836.2+2141
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0837.3+1458
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.3+1458
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0837.4+2454
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0839.4+1803
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0840.8+1317
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0840.8+1317
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0844.5+3035
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0844.5+3035
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0847.2+1134
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0847.2+1134
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0849.5+2710
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0852.2+2834
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0852.2+2834
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0854.0+2753
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.0+2753
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0854.8+2006
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0856.8+2056
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0858.1+1405
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0902.4+2051
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0903.5+2847
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0903.5+2847
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0904.0+2724
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0904.0+2724
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0905.6+1358
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0907.1+0856
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0907.1+0856
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0908.9+2311
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0908.9+2311
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0909.7+3104
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0909.7+3104
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0910.6+2247
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0912.2+2800
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.2+2800
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0912.5+1556
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0915.9+2933
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0915.9+2933
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0921.7+2336
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0924.0+2816
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0924.0+2816
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0925.7+3126
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0925.7+3126
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0927.2+2454
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0927.2+2454
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0932.7+1041
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0932.7+1041
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0935.3+0901
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0935.3+0901
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0935.5+1152
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0935.5+1152
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0936.5+1847
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0936.5+1847
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0941.9+2724
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0941.9+2724
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0942.3+2842
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0942.3+2842
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source 4FGL J0947.6+2215
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0947.6+2215
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source galdiff
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for galdiff
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Initializing source isodiff
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for isodiff
+2024-05-11 14:34:31 DEBUG   lightcurve_635774115_637761275 GTAnalysis.setup(): Finished setup.
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-11 14:34:34 INFO    lightcurve_635774115_637761275 GTBinnedAnalysis.write_xml(): Writing /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/base_00.xml...
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Starting
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): LogLike: -10791.792218
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0902.4+2051     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0904.0+2724     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0828.0+2307     : ['Prefactor']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0828.0+2307
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0902.4+2051
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0904.0+2724
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0904.0+2724
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10787.559 DeltaLogLike:        4.233 
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Prefactor']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0904.0+2724     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0830.8+2410 npred:      9.056 TS:        nan
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0830.8+2410     : ['norm']
+2024-05-11 14:34:34 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0830.8+2410
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10787.559 DeltaLogLike:        0.001 
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      9.501 TS:      0.867
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['norm']
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0839.4+1803 npred:      8.758 TS:        nan
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0839.4+1803     : ['Prefactor']
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0839.4+1803
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10787.529 DeltaLogLike:        0.030 
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     11.901 TS:      1.000
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Prefactor']
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0836.2+2141 npred:      8.126 TS:        nan
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor']
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10786.300 DeltaLogLike:        1.229 
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     30.933 TS:      4.804
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Prefactor']
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0858.1+1405 npred:      5.979 TS:        nan
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0858.1+1405     : ['Prefactor']
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
+2024-05-11 14:34:35 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0858.1+1405
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10786.300 DeltaLogLike:        0.000 
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      6.176 TS:      0.254
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0849.5+2710 npred:      5.049 TS:        nan
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0849.5+2710     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0849.5+2710
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10785.781 DeltaLogLike:        0.520 
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.004 TS:     -0.001
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0835.8+1517 npred:      4.959 TS:        nan
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0835.8+1517     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10785.517 DeltaLogLike:        0.264 
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     13.819 TS:      1.335
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0823.3+2224 npred:      4.260 TS:        nan
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0823.3+2224     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0823.3+2224
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0823.3+2224
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10785.202 DeltaLogLike:        0.315 
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.002 TS:     -0.000
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0823.3+2224     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0831.4+2631 npred:      4.125 TS:        nan
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0831.4+2631     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.4+2631
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0831.4+2631
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.633 DeltaLogLike:        0.569 
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.000 TS:     -0.000
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.4+2631     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0837.4+2454 npred:      4.022 TS:        nan
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor']
+2024-05-11 14:34:36 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.403 DeltaLogLike:        0.231 
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:     11.621 TS:      1.147
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Prefactor']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0824.4+2440 npred:      3.208 TS:        nan
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0824.4+2440     : ['Prefactor']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0824.4+2440
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0824.4+2440
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.401 DeltaLogLike:        0.002 
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      2.796 TS:      0.184
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0824.4+2440     : ['Prefactor']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0840.8+1317 npred:      3.082 TS:        nan
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0840.8+1317     : ['norm']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0840.8+1317
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0840.8+1317
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.401 DeltaLogLike:        0.000 
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      2.946 TS:      0.419
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0840.8+1317     : ['norm']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0921.7+2336 npred:      3.037 TS:        nan
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0921.7+2336     : ['Prefactor']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0921.7+2336
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.356 DeltaLogLike:        0.044 
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      6.762 TS:      0.299
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Prefactor']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0912.5+1556 npred:      2.852 TS:        nan
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0912.5+1556     : ['Prefactor']
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-11 14:34:37 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10784.029 DeltaLogLike:        0.327 
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      5.720 TS:      6.750
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0856.8+2056 npred:      2.670 TS:        nan
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0856.8+2056     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0856.8+2056
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.694 DeltaLogLike:        0.335 
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.000 TS:     -0.000
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0924.0+2816 npred:      1.814 TS:        nan
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0924.0+2816     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0924.0+2816
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0924.0+2816
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.599 DeltaLogLike:        0.095 
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.001 TS:     -0.000
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0924.0+2816     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0852.2+2834 npred:      1.512 TS:        nan
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0852.2+2834     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0852.2+2834
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0852.2+2834
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.597 DeltaLogLike:        0.002 
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.716 TS:      0.003
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0852.2+2834     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0927.2+2454 npred:      1.383 TS:        nan
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0927.2+2454     : ['Prefactor']
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0927.2+2454
+2024-05-11 14:34:38 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0927.2+2454
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.424 DeltaLogLike:        0.173 
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.000 TS:     -0.000
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0927.2+2454     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting 4FGL J0820.9+2353 npred:      1.345 TS:        nan
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0820.9+2353     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0820.9+2353
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0820.9+2353
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10783.233 DeltaLogLike:        0.191 
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Post-fit Results npred:      0.001 TS:     -0.000
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0820.9+2353     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0915.9+2933 with npred      0.978
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0832.2+2753 with npred      0.915
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0908.9+2311 with npred      0.911
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0903.5+2847 with npred      0.736
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0829.0+1755 with npred      0.730
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0905.6+1358 with npred      0.682
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0847.2+1134 with npred      0.449
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0941.9+2724 with npred      0.360
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0818.4+2816 with npred      0.348
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0936.5+1847 with npred      0.301
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0819.0+2746 with npred      0.216
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0835.7+0936 with npred      0.194
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0821.1+1007 with npred      0.188
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0816.9+2050 with npred      0.164
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0844.5+3035 with npred      0.163
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0812.3+1143 with npred      0.156
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0925.7+3126 with npred      0.138
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0829.4+0857 with npred      0.131
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0758.9+2703 with npred      0.120
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0935.3+0901 with npred      0.115
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0812.6+2821 with npred      0.107
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0831.5+1747 with npred      0.098
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0817.1+1955 with npred      0.094
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0837.3+1458 with npred      0.092
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0815.9+2951 with npred      0.090
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0932.7+1041 with npred      0.076
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0909.7+3104 with npred      0.068
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0814.4+2941 with npred      0.062
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0803.5+2046 with npred      0.052
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0854.0+2753 with npred      0.043
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0818.7+3153 with npred      0.040
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0803.0+2439 with npred      0.038
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0942.3+2842 with npred      0.032
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0809.3+3121 with npred      0.030
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0947.6+2215 with npred      0.018
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0935.5+1152 with npred      0.009
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0912.2+2800 with npred      0.004
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Skipping 4FGL J0907.1+0856 with npred      0.001
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Fitting shape 4FGL J0854.8+2006 TS:     31.841
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10781.615 DeltaLogLike:        1.618 
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Finished
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): LogLike: -10781.615417 Delta-LogLike: 10.176801
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.optimize(): Execution time: 5.39 s
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0856.8+2056     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0902.4+2051     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0839.4+1803     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0908.9+2311     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0912.5+1556     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0831.5+1747     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0858.1+1405     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0829.0+1755     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0835.8+1517     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.3+1458     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0905.6+1358     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0830.8+2410     : ['norm']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0828.0+2307     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0921.7+2336     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0849.5+2710     : ['Prefactor']
+2024-05-11 14:34:39 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0828.0+2307
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.0+1755
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0829.0+1755
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0830.8+2410
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.5+1747
+2024-05-11 14:34:41 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0831.5+1747
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.3+1458
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.3+1458
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0839.4+1803
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
+2024-05-11 14:34:42 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0849.5+2710
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0856.8+2056
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0858.1+1405
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0902.4+2051
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0905.6+1358
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0908.9+2311
+2024-05-11 14:34:43 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0908.9+2311
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0921.7+2336
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10779.422 DeltaLogLike:        2.193 
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis._fit_lc(): Free Sources Norm: ['4FGL J0912.5+1556', '4FGL J0836.2+2141', '4FGL J0910.6+2247', '4FGL J0835.8+1517', '4FGL J0837.4+2454', '4FGL J0854.8+2006']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis._fit_lc(): Free Sources Shape: ['4FGL J0854.8+2006']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0912.5+1556     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0835.8+1517     : ['Prefactor']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:44 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10779.421 DeltaLogLike:        0.001 
+2024-05-11 14:34:45 INFO    lightcurve_635774115_637761275 GTBinnedAnalysis.write_xml(): Writing /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_635774115_637761275/fit_model_final_00.xml...
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:45 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10781.046 DeltaLogLike:        0.006 
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-11 14:34:46 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Starting fit.
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit complete.
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.fit(): LogLike:   -10781.056 DeltaLogLike:        0.001 
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-11 14:34:47 DEBUG   lightcurve_635774115_637761275 GTAnalysis.profile_norm(): Finished
+2024-05-11 14:34:47 INFO    lightcurve_635774115_637761275 GTAnalysis._process_lc_bin(): Finished time range 635774115 637761274

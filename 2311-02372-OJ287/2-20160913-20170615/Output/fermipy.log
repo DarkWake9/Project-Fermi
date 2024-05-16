@@ -1629,3 +1629,1339 @@ selection:
 2024-05-06 22:33:23 INFO    GTAnalysis.sed(): Execution time: 13.34 s
 2024-05-06 22:33:38 INFO    GTAnalysis.lightcurve(): Computing Lightcurve for 4FGL J0854.8+2006
 2024-05-06 22:35:42 INFO    GTAnalysis.lightcurve(): Finished Lightcurve
+2024-05-14 12:59:42 INFO    GTAnalysis.__init__(): 
+--------------------------------------------------------------------------------
+fermipy version 1.2.2 
+ScienceTools version 2.2.0
+2024-05-14 12:59:42 DEBUG   GTAnalysis.print_config(): Configuration:
+binning:
+  binsperdec: 8.0
+  binsz: 0.1
+  coordsys: CEL
+  enumbins: null
+  hpx_ebin: true
+  hpx_order: 10
+  hpx_ordering_scheme: RING
+  npix: null
+  proj: AIT
+  projtype: WCS
+  roiwidth: 15.0
+components: []
+curvature:
+  Index2: 0.6667
+  free_Index2: false
+data:
+  cacheft1: true
+  evfile: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/list.txt
+  ltcube: null
+  scfile: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/spacecraft/L24031504300807170E9856_SC00.fits
+extension:
+  fit_ebin: false
+  fit_position: false
+  fix_shape: false
+  free_background: false
+  free_radius: null
+  make_plots: false
+  make_tsmap: true
+  psf_scale_fn: null
+  reoptimize: false
+  save_model_map: false
+  spatial_model: RadialGaussian
+  sqrt_ts_threshold: null
+  tsmap_fitter: tsmap
+  update: false
+  width: []
+  width_max: 1.0
+  width_min: 0.01
+  width_nstep: 21
+  write_fits: true
+  write_npy: true
+fileio:
+  logfile: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/fermipy.log
+  outdir: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output
+  outdir_regex:
+  - \.fits$|\.fit$|\.xml$|\.npy$|\.png$|\.pdf$|\.yaml$
+  savefits: true
+  scratchdir: /scratch
+  usescratch: false
+  workdir: null
+  workdir_regex:
+  - \.fits$|\.fit$|\.xml$|\.npy$
+gtlike:
+  bexpmap: null
+  bexpmap_base: null
+  bexpmap_roi: null
+  bexpmap_roi_base: null
+  convolve: true
+  edisp: true
+  edisp_bins: -2
+  edisp_disable:
+  - isodiff
+  expscale: null
+  irfs: P8R3_SOURCE_V3
+  llscan_npts: 20
+  minbinsz: 0.05
+  resample: true
+  rfactor: 2
+  src_expscale: {}
+  srcmap: null
+  srcmap_base: null
+  use_external_srcmap: false
+  use_scaled_srcmap: false
+  wmap: null
+lightcurve:
+  binsz: 86400.0
+  free_background: false
+  free_params: []
+  free_radius: null
+  free_sources: []
+  make_plots: false
+  max_free_sources: 5
+  multithread: false
+  nbins: null
+  nthread: null
+  outdir: null
+  save_bin_data: true
+  shape_ts_threshold: 16.0
+  systematic: 0.02
+  time_bins: []
+  use_local_ltcube: true
+  use_scaled_srcmap: false
+  write_fits: true
+  write_npy: true
+localize:
+  dtheta_max: 0.5
+  fix_shape: false
+  free_background: false
+  free_radius: null
+  make_plots: false
+  nstep: 5
+  tsmap_fitter: tsmap
+  update: true
+  write_fits: true
+  write_npy: true
+logging:
+  chatter: 3
+  prefix: ''
+  verbosity: 3
+ltcube:
+  binsz: 1.0
+  dcostheta: 0.025
+  phibins: 0
+  use_local_ltcube: false
+mc:
+  seed: null
+model:
+  assoc_xmatch_columns:
+  - 3FGL_Name
+  catalogs:
+  - 4FGL-DR3
+  diffuse: []
+  diffuse_dir: []
+  diffuse_xml: []
+  extdir: null
+  extract_diffuse: false
+  galdiff:
+  - /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Diffuse/gll_iem_v07.fits
+  isodiff:
+  - /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
+  limbdiff: []
+  merge_sources: true
+  sources: []
+  src_radius: null
+  src_radius_roi: null
+  src_roiwidth: 25.0
+optimizer:
+  init_lambda: 0.0001
+  max_iter: 100
+  min_fit_quality: 2
+  optimizer: MINUIT
+  retries: 3
+  tol: 0.001
+  verbosity: 0
+plotting:
+  catalogs: []
+  cmap: magma
+  cmap_resid: RdBu_r
+  figsize:
+  - 8.0
+  - 6.0
+  format: png
+  graticule_radii: []
+  interactive: false
+  label_ts_threshold: 0.0
+  loge_bounds: []
+residmap:
+  exclude: []
+  loge_bounds: []
+  make_plots: false
+  model: {}
+  use_weights: false
+  write_fits: true
+  write_npy: true
+roiopt:
+  max_free_sources: 5
+  npred_frac: 0.95
+  npred_threshold: 1.0
+  shape_ts_threshold: 25.0
+  skip: []
+sed:
+  bin_index: 2.0
+  cov_scale: 3.0
+  free_background: false
+  free_pars: []
+  free_radius: null
+  make_plots: false
+  ul_confidence: 0.95
+  use_local_index: false
+  write_fits: true
+  write_npy: true
+selection:
+  convtype: null
+  dec: 20.108510833333334
+  emax: 300000.0
+  emin: 100.0
+  evclass: 128
+  evtype: 3
+  filter: null
+  glat: null
+  glon: null
+  logemax: null
+  logemin: null
+  phasemax: null
+  phasemin: null
+  ra: 133.70364541666666
+  radius: null
+  roicut: 'no'
+  target: null
+  tmax: 519220801
+  tmin: 495460801
+  zmax: 90.0
+sourcefind:
+  free_params: []
+  max_iter: 5
+  min_separation: 1.0
+  model: {}
+  multithread: false
+  nthread: null
+  sources_per_iter: 4
+  sqrt_ts_threshold: 5.0
+  tsmap_fitter: tsmap
+tscube:
+  cov_scale: -1.0
+  cov_scale_bb: -1.0
+  do_sed: true
+  exclude: []
+  init_lambda: 0.0
+  max_iter: 30
+  model: {}
+  nnorm: 10
+  norm_sigma: 5.0
+  remake_test_source: false
+  st_scan_level: 0
+  tol: 0.001
+  tol_type: 0
+tsmap:
+  exclude: []
+  loge_bounds: []
+  make_plots: false
+  max_kernel_radius: 3.0
+  model: {}
+  multithread: false
+  nthread: null
+  write_fits: true
+  write_npy: true
+
+2024-05-14 12:59:42 DEBUG   GTAnalysis._create_component(): Creating Analysis Component: 00
+2024-05-14 12:59:42 DEBUG   GTBinnedAnalysis.__init__(): Automatically setting selection radius to 11.106601717798213 deg
+2024-05-14 12:59:42 DEBUG   GTBinnedAnalysis.print_config(): Configuration:
+binning:
+  binsperdec: 8.0
+  binsz: 0.1
+  coordsys: CEL
+  enumbins: null
+  hpx_ebin: true
+  hpx_order: 10
+  hpx_ordering_scheme: RING
+  npix: null
+  proj: AIT
+  projtype: WCS
+  roiwidth: 15.0
+data:
+  cacheft1: true
+  evfile: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/list.txt
+  ltcube: null
+  scfile: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/spacecraft/L24031504300807170E9856_SC00.fits
+file_suffix: _00
+fileio:
+  logfile: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/fermipy.log
+  outdir: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output
+  outdir_regex:
+  - \.fits$|\.fit$|\.xml$|\.npy$|\.png$|\.pdf$|\.yaml$
+  savefits: true
+  scratchdir: /scratch
+  usescratch: false
+  workdir: /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output
+  workdir_regex:
+  - \.fits$|\.fit$|\.xml$|\.npy$
+gtlike:
+  bexpmap: null
+  bexpmap_base: null
+  bexpmap_roi: null
+  bexpmap_roi_base: null
+  convolve: true
+  edisp: true
+  edisp_bins: -2
+  edisp_disable:
+  - isodiff
+  expscale: null
+  irfs: P8R3_SOURCE_V3
+  llscan_npts: 20
+  minbinsz: 0.05
+  resample: true
+  rfactor: 2
+  src_expscale: {}
+  srcmap: null
+  srcmap_base: null
+  use_external_srcmap: false
+  use_scaled_srcmap: false
+  wmap: null
+logging:
+  chatter: 3
+  prefix: ''
+  verbosity: 3
+ltcube:
+  binsz: 1.0
+  dcostheta: 0.025
+  phibins: 0
+  use_local_ltcube: false
+model:
+  assoc_xmatch_columns:
+  - 3FGL_Name
+  catalogs:
+  - 4FGL-DR3
+  diffuse: []
+  diffuse_dir: []
+  diffuse_xml: []
+  extdir: null
+  extract_diffuse: false
+  galdiff:
+  - /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Diffuse/gll_iem_v07.fits
+  isodiff:
+  - /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
+  limbdiff: []
+  merge_sources: true
+  sources: []
+  src_radius: null
+  src_radius_roi: null
+  src_roiwidth: 25.0
+name: '00'
+selection:
+  convtype: null
+  dec: 20.108510833333334
+  emax: 300000.0
+  emin: 100.0
+  evclass: 128
+  evtype: 3
+  filter: null
+  glat: null
+  glon: null
+  logemax: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    YP1keZLoFUA=
+  logemin: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAAEA=
+  phasemax: null
+  phasemin: null
+  ra: 133.70364541666666
+  radius: 11.106601717798213
+  roicut: 'no'
+  target: null
+  tmax: 519220801
+  tmin: 495460801
+  zmax: 90.0
+
+2024-05-14 12:59:42 INFO    GTAnalysis.setup(): Running setup.
+2024-05-14 12:59:42 INFO    GTBinnedAnalysis.setup(): Running setup for component 00
+2024-05-14 12:59:42 INFO    GTBinnedAnalysis._select_data(): Skipping data selection.
+2024-05-14 12:59:42 INFO    GTBinnedAnalysis._create_ltcube(): Skipping LT Cube.
+2024-05-14 12:59:42 DEBUG   GTBinnedAnalysis.setup(): Loading LT Cube /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/ltcube_00.fits
+2024-05-14 12:59:42 DEBUG   GTBinnedAnalysis.setup(): Creating PSF model
+2024-05-14 12:59:43 DEBUG   GTBinnedAnalysis._bin_data(): Skipping gtbin.
+2024-05-14 12:59:43 INFO    GTBinnedAnalysis._create_expcube(): Skipping gtexpcube.
+2024-05-14 12:59:43 INFO    GTBinnedAnalysis._create_srcmaps(): Skipping gtsrcmaps.
+2024-05-14 12:59:43 INFO    GTBinnedAnalysis.setup(): Finished setup for component 00
+2024-05-14 12:59:43 INFO    GTBinnedAnalysis._create_binned_analysis(): Creating BinnedAnalysis for component 00.
+2024-05-14 12:59:43 DEBUG   GTBinnedAnalysis._create_binned_analysis(): Creating BinnedObs
+2024-05-14 12:59:43 DEBUG   GTBinnedAnalysis._create_binned_analysis(): {'srcMaps': '/scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/srcmap_00.fits', 'expCube': '/scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/ltcube_00.fits', 'binnedExpMap': '/scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/bexpmap_00.fits', 'irfs': 'P8R3_SOURCE_V3'}
+2024-05-14 12:59:43 DEBUG   GTBinnedAnalysis._create_binned_analysis(): Creating BinnedAnalysis
+2024-05-14 12:59:43 DEBUG   GTBinnedAnalysis._create_binned_analysis(): {'srcModel': '/scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/srcmdl_00.xml', 'optimizer': 'MINUIT', 'wmap': None, 'convolve': True, 'resample': True, 'minbinsz': 0.05, 'resamp_fact': 2, 'edisp_bins': -2}
+2024-05-14 12:59:48 DEBUG   GTBinnedAnalysis._create_binned_analysis(): Disabling energy dispersion for isodiff
+2024-05-14 12:59:48 DEBUG   GTBinnedAnalysis._create_binned_analysis(): Computing fixed weights
+2024-05-14 12:59:48 DEBUG   GTBinnedAnalysis._create_binned_analysis(): Updating source maps
+2024-05-14 12:59:49 INFO    GTAnalysis.setup(): Initializing source properties
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0758.9+2703
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0758.9+2703
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0803.0+2439
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0803.0+2439
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0803.5+2046
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0803.5+2046
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0809.3+3121
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0809.3+3121
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0812.3+1143
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0812.3+1143
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0812.6+2821
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0812.6+2821
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0814.4+2941
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0814.4+2941
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0815.9+2951
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0815.9+2951
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0816.9+2050
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0816.9+2050
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0817.1+1955
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0817.1+1955
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0818.4+2816
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0818.4+2816
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0818.7+3153
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0818.7+3153
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0819.0+2746
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0819.0+2746
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0820.9+2353
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0820.9+2353
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0821.1+1007
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0821.1+1007
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0823.3+2224
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0823.3+2224
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0824.4+2440
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0824.4+2440
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0828.0+2307
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0829.0+1755
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.0+1755
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0829.4+0857
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.4+0857
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0830.8+2410
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0831.4+2631
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.4+2631
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0831.5+1747
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.5+1747
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0832.2+2753
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0832.2+2753
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0835.7+0936
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.7+0936
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0835.8+1517
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0836.2+2141
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0837.3+1458
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.3+1458
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0837.4+2454
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0839.4+1803
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0840.8+1317
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0840.8+1317
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0844.5+3035
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0844.5+3035
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0847.2+1134
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0847.2+1134
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0849.5+2710
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0852.2+2834
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0852.2+2834
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0854.0+2753
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.0+2753
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0854.8+2006
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0856.8+2056
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0858.1+1405
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0902.4+2051
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0903.5+2847
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0903.5+2847
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0904.0+2724
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0904.0+2724
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0905.6+1358
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0907.1+0856
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0907.1+0856
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0908.9+2311
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0908.9+2311
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0909.7+3104
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0909.7+3104
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0910.6+2247
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0912.2+2800
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.2+2800
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0912.5+1556
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0915.9+2933
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0915.9+2933
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0921.7+2336
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0924.0+2816
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0924.0+2816
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0925.7+3126
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0925.7+3126
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0927.2+2454
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0927.2+2454
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0932.7+1041
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0932.7+1041
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0935.3+0901
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0935.3+0901
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0935.5+1152
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0935.5+1152
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0936.5+1847
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0936.5+1847
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0941.9+2724
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0941.9+2724
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0942.3+2842
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0942.3+2842
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source 4FGL J0947.6+2215
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0947.6+2215
+2024-05-14 12:59:49 DEBUG   GTAnalysis.setup(): Initializing source galdiff
+2024-05-14 12:59:49 DEBUG   GTAnalysis.get_src_model(): Generating source dict for galdiff
+2024-05-14 12:59:52 DEBUG   GTAnalysis.setup(): Initializing source isodiff
+2024-05-14 12:59:52 DEBUG   GTAnalysis.get_src_model(): Generating source dict for isodiff
+2024-05-14 12:59:52 INFO    GTAnalysis.setup(): Finished setup.
+2024-05-14 12:59:52 INFO    GTAnalysis.optimize(): Starting
+2024-05-14 12:59:52 DEBUG   GTAnalysis.optimize(): LogLike: -83472.237051
+2024-05-14 12:59:52 DEBUG   GTAnalysis.free_source(): Freeing parameters for galdiff               : ['Prefactor']
+2024-05-14 12:59:52 DEBUG   GTAnalysis.free_source(): Freeing parameters for isodiff               : ['Normalization']
+2024-05-14 12:59:52 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-14 12:59:52 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0830.8+2410     : ['norm']
+2024-05-14 12:59:52 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0902.4+2051     : ['norm']
+2024-05-14 12:59:52 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:53 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0830.8+2410
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:53 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:53 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0902.4+2051
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:53 DEBUG   GTAnalysis.get_src_model(): Generating source dict for galdiff
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Profiling galdiff
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:53 DEBUG   GTAnalysis.get_src_model(): Generating source dict for isodiff
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Profiling isodiff
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): LogLike:   -83414.453 DeltaLogLike:       57.784 
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['norm']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['norm']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Fixing parameters for isodiff               : ['Normalization']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Prefactor']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0824.4+2440 npred:    143.810 TS:        nan
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0824.4+2440     : ['Prefactor']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:53 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0824.4+2440
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0824.4+2440
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): LogLike:   -83414.360 DeltaLogLike:        0.093 
+2024-05-14 12:59:53 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:    129.182 TS:     19.966
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0824.4+2440     : ['Prefactor']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0836.2+2141 npred:    133.448 TS:        nan
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:53 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
+2024-05-14 12:59:53 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): LogLike:   -83408.737 DeltaLogLike:        5.623 
+2024-05-14 12:59:53 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:      0.006 TS:     -0.000
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Prefactor']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0910.6+2247 npred:    132.574 TS:        nan
+2024-05-14 12:59:53 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm']
+2024-05-14 12:59:53 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): LogLike:   -83383.825 DeltaLogLike:       24.912 
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:    414.376 TS:    146.463
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['norm']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0856.8+2056 npred:     95.254 TS:        nan
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0856.8+2056     : ['Prefactor']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0856.8+2056
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): LogLike:   -83382.282 DeltaLogLike:        1.543 
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     47.025 TS:      9.619
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Prefactor']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0839.4+1803 npred:     77.135 TS:        nan
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0839.4+1803     : ['Prefactor']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0839.4+1803
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): LogLike:   -83381.893 DeltaLogLike:        0.389 
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:    102.222 TS:     22.195
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Prefactor']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0904.0+2724 npred:     73.074 TS:        nan
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0904.0+2724     : ['norm']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0904.0+2724
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0904.0+2724
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): LogLike:   -83380.810 DeltaLogLike:        1.083 
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     28.744 TS:      1.164
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0904.0+2724     : ['norm']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0837.4+2454 npred:     60.848 TS:        nan
+2024-05-14 12:59:54 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor']
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:54 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
+2024-05-14 12:59:54 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): LogLike:   -83380.796 DeltaLogLike:        0.014 
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     53.588 TS:      1.677
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0905.6+1358 npred:     60.473 TS:        nan
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0905.6+1358     : ['norm']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0905.6+1358
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): LogLike:   -83378.641 DeltaLogLike:        2.155 
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     90.428 TS:    132.296
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['norm']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0823.3+2224 npred:     60.224 TS:        nan
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0823.3+2224     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0823.3+2224
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0823.3+2224
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): LogLike:   -83378.586 DeltaLogLike:        0.056 
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     69.343 TS:     10.249
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0823.3+2224     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0831.4+2631 npred:     57.472 TS:        nan
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0831.4+2631     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.4+2631
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0831.4+2631
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): LogLike:   -83378.234 DeltaLogLike:        0.351 
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     30.767 TS:      1.118
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.4+2631     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0921.7+2336 npred:     55.675 TS:        nan
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0921.7+2336     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0921.7+2336
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): LogLike:   -83376.171 DeltaLogLike:        2.063 
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     10.207 TS:      0.367
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Fitting 4FGL J0858.1+1405 npred:     54.781 TS:        nan
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0858.1+1405     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:55 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0858.1+1405
+2024-05-14 12:59:55 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): LogLike:   -83375.647 DeltaLogLike:        0.524 
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Post-fit Results npred:     92.926 TS:      7.193
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Prefactor']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0840.8+1317 with npred     42.794
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0835.8+1517 with npred     41.312
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0908.9+2311 with npred     31.384
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0829.0+1755 with npred     30.832
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0831.5+1747 with npred     30.074
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0912.5+1556 with npred     27.699
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0849.5+2710 with npred     26.227
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0924.0+2816 with npred     25.643
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0852.2+2834 with npred     21.379
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0927.2+2454 with npred     19.157
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0820.9+2353 with npred     18.993
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0828.0+2307 with npred     14.964
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0915.9+2933 with npred     13.710
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0832.2+2753 with npred     12.772
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0903.5+2847 with npred     10.431
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0847.2+1134 with npred      6.278
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0941.9+2724 with npred      5.250
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0818.4+2816 with npred      4.858
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0936.5+1847 with npred      4.298
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0837.3+1458 with npred      3.021
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0819.0+2746 with npred      2.975
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0835.7+0936 with npred      2.715
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0821.1+1007 with npred      2.670
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0816.9+2050 with npred      2.317
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0844.5+3035 with npred      2.291
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0812.3+1143 with npred      2.245
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0925.7+3126 with npred      1.965
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0829.4+0857 with npred      1.846
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0758.9+2703 with npred      1.678
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0935.3+0901 with npred      1.520
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0812.6+2821 with npred      1.496
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0817.1+1955 with npred      1.343
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0815.9+2951 with npred      1.250
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0932.7+1041 with npred      1.020
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0909.7+3104 with npred      0.965
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0814.4+2941 with npred      0.858
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0803.5+2046 with npred      0.734
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0854.0+2753 with npred      0.593
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0818.7+3153 with npred      0.548
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0803.0+2439 with npred      0.532
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0942.3+2842 with npred      0.453
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0809.3+3121 with npred      0.409
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0947.6+2215 with npred      0.259
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0935.5+1152 with npred      0.127
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0912.2+2800 with npred      0.061
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Skipping 4FGL J0907.1+0856 with npred      0.009
+2024-05-14 12:59:55 DEBUG   GTAnalysis.optimize(): Fitting shape 4FGL J0854.8+2006 TS:    817.340
+2024-05-14 12:59:55 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:55 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): LogLike:   -83361.359 DeltaLogLike:       14.289 
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.optimize(): Fitting shape isodiff TS:    767.956
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Freeing parameters for isodiff               : ['Normalization']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.get_src_model(): Generating source dict for isodiff
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Profiling isodiff
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): LogLike:   -83361.027 DeltaLogLike:        0.332 
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Fixing parameters for isodiff               : ['Normalization']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.optimize(): Fitting shape galdiff TS:    250.629
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Freeing parameters for galdiff               : ['Prefactor', 'Index']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.get_src_model(): Generating source dict for galdiff
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Profiling galdiff
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): LogLike:   -83356.820 DeltaLogLike:        4.207 
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Prefactor', 'Index']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.optimize(): Fitting shape 4FGL J0910.6+2247 TS:    146.463
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:56 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): LogLike:   -83355.328 DeltaLogLike:        1.492 
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.optimize(): Fitting shape 4FGL J0905.6+1358 TS:    132.296
+2024-05-14 12:59:56 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0905.6+1358     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:56 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:57 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:57 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
+2024-05-14 12:59:57 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0905.6+1358
+2024-05-14 12:59:57 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 12:59:57 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:57 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:57 DEBUG   GTAnalysis.fit(): LogLike:   -83354.304 DeltaLogLike:        1.025 
+2024-05-14 12:59:57 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:57 DEBUG   GTAnalysis.optimize(): Fitting shape 4FGL J0902.4+2051 TS:    115.714
+2024-05-14 12:59:57 DEBUG   GTAnalysis.free_source(): Freeing parameters for 4FGL J0902.4+2051     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:57 DEBUG   GTAnalysis.fit(): Starting fit.
+2024-05-14 12:59:57 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 12:59:57 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-14 12:59:57 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0902.4+2051
+2024-05-14 12:59:57 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 12:59:57 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 12:59:57 DEBUG   GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status:   0
+2024-05-14 12:59:57 DEBUG   GTAnalysis.fit(): LogLike:   -83354.174 DeltaLogLike:        0.130 
+2024-05-14 12:59:57 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['norm', 'alpha', 'beta']
+2024-05-14 12:59:57 INFO    GTAnalysis.optimize(): Finished
+2024-05-14 12:59:57 INFO    GTAnalysis.optimize(): LogLike: -83354.173633 Delta-LogLike: 118.063418
+2024-05-14 12:59:57 INFO    GTAnalysis.optimize(): Execution time: 4.61 s
+2024-05-14 12:59:57 INFO    GTAnalysis.find_sources(): Starting.
+2024-05-14 12:59:57 INFO    GTAnalysis.tsmap(): Generating TS map
+2024-05-14 12:59:57 DEBUG   GTAnalysis.add_source(): Adding source tsmap_testsource
+2024-05-14 12:59:58 DEBUG   GTAnalysis.delete_source(): Deleting source tsmap_testsource
+2024-05-14 12:59:58 DEBUG   GTBinnedAnalysis.delete_source(): Deleting source tsmap_testsource
+2024-05-14 12:59:58 INFO    GTAnalysis._make_tsmap_fast(): Fitting test source.
+2024-05-14 13:00:05 INFO    GTAnalysis.tsmap(): Finished TS map
+2024-05-14 13:00:10 WARNING GTAnalysis.tsmap(): Saving TS maps in .npy files is disabled b/c of incompatibilities in python3, remove the maps from the /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/sourcefind_00_pointsource_powerlaw_2.00_tsmap.npy
+2024-05-14 13:00:10 INFO    GTAnalysis.tsmap(): Execution time: 13.39 s
+2024-05-14 13:00:10 INFO    GTAnalysis.find_sources(): Found 0 sources in iteration 0.
+2024-05-14 13:00:10 INFO    GTAnalysis.find_sources(): Done.
+2024-05-14 13:00:10 INFO    GTAnalysis.find_sources(): Execution time: 13.40 s
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0854.8+2006     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0856.8+2056     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0902.4+2051     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0839.4+1803     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0908.9+2311     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0910.6+2247     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0836.2+2141     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0912.5+1556     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0831.5+1747     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0858.1+1405     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.4+2454     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0829.0+1755     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0835.8+1517     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0837.3+1458     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0905.6+1358     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0830.8+2410     : ['norm', 'alpha', 'beta']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0828.0+2307     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0921.7+2336     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for 4FGL J0849.5+2710     : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for isodiff               : ['Normalization']
+2024-05-14 13:00:10 INFO    GTAnalysis.free_source(): Freeing parameters for galdiff               : ['Prefactor', 'Index']
+2024-05-14 13:00:10 INFO    GTAnalysis.fit(): Starting fit.
+2024-05-14 13:00:23 DEBUG   GTAnalysis.fit(): Fit complete.
+2024-05-14 13:00:23 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0828.0+2307
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0828.0+2307
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:23 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0829.0+1755
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0829.0+1755
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:23 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0830.8+2410
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0830.8+2410
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:23 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0831.5+1747
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0831.5+1747
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:23 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0835.8+1517
+2024-05-14 13:00:23 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0835.8+1517
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:23 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:24 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0836.2+2141
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0836.2+2141
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:24 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.3+1458
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0837.3+1458
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:24 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0837.4+2454
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0837.4+2454
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:24 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0839.4+1803
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0839.4+1803
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:24 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0849.5+2710
+2024-05-14 13:00:24 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0849.5+2710
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:24 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:25 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0854.8+2006
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0854.8+2006
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:25 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0856.8+2056
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0856.8+2056
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:25 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0858.1+1405
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0858.1+1405
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:25 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0902.4+2051
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0902.4+2051
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:25 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0905.6+1358
+2024-05-14 13:00:25 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0905.6+1358
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:25 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:26 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0908.9+2311
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0908.9+2311
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:26 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0910.6+2247
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0910.6+2247
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:26 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0912.5+1556
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0912.5+1556
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:26 DEBUG   GTAnalysis.get_src_model(): Generating source dict for 4FGL J0921.7+2336
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Profiling 4FGL J0921.7+2336
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:26 DEBUG   GTAnalysis.get_src_model(): Generating source dict for galdiff
+2024-05-14 13:00:26 DEBUG   GTAnalysis.profile_norm(): Profiling galdiff
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:26 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:27 DEBUG   GTAnalysis.get_src_model(): Generating source dict for isodiff
+2024-05-14 13:00:27 DEBUG   GTAnalysis.profile_norm(): Profiling isodiff
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0854.8+2006     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0856.8+2056     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0902.4+2051     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0839.4+1803     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0908.9+2311     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0910.6+2247     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0836.2+2141     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0912.5+1556     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0831.5+1747     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0858.1+1405     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.4+2454     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0829.0+1755     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0835.8+1517     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0837.3+1458     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0905.6+1358     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0830.8+2410     : ['alpha', 'beta']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0828.0+2307     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0921.7+2336     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for 4FGL J0849.5+2710     : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.free_source(): Fixing parameters for galdiff               : ['Index']
+2024-05-14 13:00:27 DEBUG   GTAnalysis.profile_norm(): Finished
+2024-05-14 13:00:27 INFO    GTAnalysis.fit(): Fit returned successfully. Quality:   3 Status: 156
+2024-05-14 13:00:27 INFO    GTAnalysis.fit(): LogLike:   -83332.275 DeltaLogLike:       21.898 
+2024-05-14 13:00:27 INFO    GTBinnedAnalysis.write_xml(): Writing /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/Results_00.xml...
+2024-05-14 13:00:27 INFO    GTAnalysis.write_fits(): Writing /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/Results.fits...
+2024-05-14 13:00:34 INFO    GTAnalysis.write_roi(): Writing /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/Results.npy...
+2024-05-14 13:00:36 INFO    GTAnalysis.tsmap(): Generating TS map
+2024-05-14 13:00:36 DEBUG   GTAnalysis.add_source(): Adding source tsmap_testsource
+2024-05-14 13:00:37 DEBUG   GTAnalysis.delete_source(): Deleting source tsmap_testsource
+2024-05-14 13:00:37 DEBUG   GTBinnedAnalysis.delete_source(): Deleting source tsmap_testsource
+2024-05-14 13:00:37 INFO    GTAnalysis._make_tsmap_fast(): Fitting test source.
+2024-05-14 13:00:51 INFO    GTAnalysis.tsmap(): Finished TS map
+2024-05-14 13:00:56 WARNING GTAnalysis.tsmap(): Saving TS maps in .npy files is disabled b/c of incompatibilities in python3, remove the maps from the /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/Residuals_TS_map__pointsource_powerlaw_2.00_tsmap.npy
+2024-05-14 13:00:56 INFO    GTAnalysis.tsmap(): Execution time: 20.46 s
+2024-05-14 13:00:57 INFO    GTAnalysis.tsmap(): Generating TS map
+2024-05-14 13:00:57 DEBUG   GTAnalysis.add_source(): Adding source tsmap_testsource
+2024-05-14 13:00:58 DEBUG   GTAnalysis.delete_source(): Deleting source tsmap_testsource
+2024-05-14 13:00:58 DEBUG   GTBinnedAnalysis.delete_source(): Deleting source tsmap_testsource
+2024-05-14 13:00:58 INFO    GTAnalysis._make_tsmap_fast(): Fitting test source.
+2024-05-14 13:01:12 INFO    GTAnalysis.tsmap(): Finished TS map
+2024-05-14 13:01:17 WARNING GTAnalysis.tsmap(): Saving TS maps in .npy files is disabled b/c of incompatibilities in python3, remove the maps from the /scratch/Project-Fermi/2311-02372-OJ287/2-20160913-20170615/Output/Target_TS_map__pointsource_powerlaw_2.00_tsmap.npy
+2024-05-14 13:01:17 INFO    GTAnalysis.tsmap(): Execution time: 20.81 s
+2024-05-14 13:01:18 INFO    GTAnalysis.residmap(): Generating residual maps
+2024-05-14 13:01:18 INFO    GTAnalysis.add_source(): Adding source residmap_testsource
+2024-05-14 13:01:19 INFO    GTAnalysis.delete_source(): Deleting source residmap_testsource
+2024-05-14 13:01:19 DEBUG   GTBinnedAnalysis.delete_source(): Deleting source residmap_testsource
+2024-05-14 13:01:20 INFO    GTAnalysis.residmap(): Finished residual maps
+2024-05-14 13:01:24 INFO    GTAnalysis.residmap(): Execution time: 6.52 s

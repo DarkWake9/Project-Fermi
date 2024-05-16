@@ -695,12 +695,12 @@
       <parameter error="0.01435833543" free="1" max="1" min="-1" name="Index" scale="-1" value="0.01547587505" />
       <parameter free="0" max="1000" min="1000" name="Scale" scale="1" value="1000" />
     </spectrum>
-    <spatialModel file="/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Diffuse/gll_iem_v07.fits" type="MapCubeFunction">
+    <spatialModel file="/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Diffuse/gll_iem_v07.fits" type="MapCubeFunction">
       <parameter free="0" max="10" min="0" name="Normalization" scale="1" value="1" />
     </spatialModel>
   </source>
   <source name="isodiff" type="DiffuseSource">
-    <spectrum apply_edisp="false" file="/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Diffuse/iso_P8R3_SOURCE_V3_v1.txt" type="FileFunction">
+    <spectrum apply_edisp="false" file="/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Diffuse/iso_P8R3_SOURCE_V3_v1.txt" type="FileFunction">
       <parameter error="0.02227401079" free="1" max="1000" min="0.001" name="Normalization" scale="1" value="1.058026358" />
     </spectrum>
     <spatialModel type="ConstantValue">

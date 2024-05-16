@@ -1,6 +1,6 @@
 data:
-  evfile : /scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Output/list.txt
-  scfile : /scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/spacecraft/L24031505091207170E9842_SC00.fits
+  evfile : /scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Output/list.txt
+  scfile : /scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/spacecraft/L24031505091207170E9842_SC00.fits
 
 binning:
   roiwidth   : 15
@@ -26,6 +26,6 @@ gtlike:
 
 model:
   src_roiwidth : 25
-  galdiff  : '/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Diffuse/gll_iem_v07.fits'
-  isodiff  : '/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Diffuse/iso_P8R3_SOURCE_V3_v1.txt'
+  galdiff  : '/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Diffuse/gll_iem_v07.fits'
+  isodiff  : '/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Diffuse/iso_P8R3_SOURCE_V3_v1.txt'
   catalogs : ['4FGL-DR3']

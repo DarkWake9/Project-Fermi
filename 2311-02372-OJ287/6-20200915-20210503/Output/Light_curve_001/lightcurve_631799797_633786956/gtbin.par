@@ -1,8 +1,8 @@
 #-------------------------------------------------------------------------------
 # General parameters.
-evfile,        f, a, "/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_631799797_633786956/ft1_00.fits", , , "Event data file name"
-scfile,        f, a, "/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits", , , "Spacecraft data file name"
-outfile,       f, a, "/scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_631799797_633786956/ccube_00.fits", , , "Output file name"
+evfile,        f, a, "/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_631799797_633786956/ft1_00.fits", , , "Event data file name"
+scfile,        f, a, "/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits", , , "Spacecraft data file name"
+outfile,       f, a, "/scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_631799797_633786956/ccube_00.fits", , , "Output file name"
 algorithm,     s, a, "CCUBE", CCUBE|CMAP|LC|PHA1|PHA2|HEALPIX, , "Type of output file"
 #-------------------------------------------------------------------------------
 

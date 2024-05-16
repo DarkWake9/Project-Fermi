@@ -12,10 +12,10 @@ High_resolution: false
 High_sensitivity: false
 LC: true
 LC_Nbins: 7
-LC_Ncores: 6
+LC_Ncores: 8
 N_iter: 1
 Only_norm: false
-SED: true
+SED: false
 SED_Nbins: 20
 Standard: true
 TS_map: true

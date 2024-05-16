@@ -690,7 +690,7 @@
     </spectrum>
   </source>
   <source name="isodiff" type="DiffuseSource">
-    <spectrum file="/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Diffuse/iso_P8R3_SOURCE_V3_v1.txt" type="FileFunction" ctype="-1">
+    <spectrum file="/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Diffuse/iso_P8R3_SOURCE_V3_v1.txt" type="FileFunction" ctype="-1">
       <parameter free="0" max="1000.0" min="0.001" name="Normalization" scale="1.0" value="1.0"/>
     </spectrum>
     <spatialModel type="ConstantValue">
@@ -703,7 +703,7 @@
       <parameter free="0" max="10.0" min="0.1" name="Prefactor" scale="1.0" value="1.0"/>
       <parameter free="0" max="1000.0" min="1000.0" name="Scale" scale="1.0" value="1000.0"/>
     </spectrum>
-    <spatialModel type="MapCubeFunction" file="/scratch/Project-Fermi/2311-02372-OJ287/4-20180206-20180622/Diffuse/gll_iem_v07.fits">
+    <spatialModel type="MapCubeFunction" file="/scratch/Project-Fermi/2311-02372-OJ287/3B-20180206-20180622/Diffuse/gll_iem_v07.fits">
       <parameter name="Normalization" scale="1" value="1" min="0" max="10" free="0"/>
     </spatialModel>
   </source>

@@ -12,21 +12,21 @@ binning:
   roiwidth: 15.0
 components:
 - data:
-    evfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/ft1_00.fits
+    evfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/ft1_00.fits
     ltcube: null
-    scfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
+    scfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
   gtlike:
-    bexpmap_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/bexpmap_00.fits
-    bexpmap_roi_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/bexpmap_roi_00.fits
-    srcmap_base: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/srcmap_00.fits
+    bexpmap_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/bexpmap_00.fits
+    bexpmap_roi_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/bexpmap_roi_00.fits
+    srcmap_base: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/srcmap_00.fits
 curvature:
   Index2: 0.6667
   free_Index2: false
 data:
   cacheft1: true
-  evfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/list.txt
+  evfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/list.txt
   ltcube: null
-  scfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
+  scfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/spacecraft/L24040602025707170E9853_SC00.fits
 extension:
   fit_ebin: false
   fit_position: false
@@ -49,14 +49,14 @@ extension:
   write_fits: true
   write_npy: true
 fileio:
-  logfile: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_639748434_641735593/fermipy.log
-  outdir: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output/lightcurve_639748434_641735593
+  logfile: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_639748434_641735593/fermipy.log
+  outdir: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output/lightcurve_639748434_641735593
   outdir_regex:
   - \.fits$|\.fit$|\.xml$|\.npy$|\.png$|\.pdf$|\.yaml$
   savefits: true
   scratchdir: /scratch
   usescratch: false
-  workdir: /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output
+  workdir: /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output
   workdir_regex:
   - \.fits$|\.fit$|\.xml$|\.npy$
 gtlike:
@@ -130,14 +130,14 @@ model:
   - 4FGL-DR3
   diffuse: []
   diffuse_dir:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Output
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Output
   diffuse_xml: []
   extdir: null
   extract_diffuse: false
   galdiff:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Diffuse/gll_iem_v07.fits
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Diffuse/gll_iem_v07.fits
   isodiff:
-  - /scratch/Project-Fermi/2311-02372-OJ287/7-20200915-20210503/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
+  - /scratch/Project-Fermi/2311-02372-OJ287/6-20200915-20210503/Diffuse/iso_P8R3_SOURCE_V3_v1.txt
   limbdiff: []
   merge_sources: true
   sources: []
