@@ -45,7 +45,7 @@ min_sig: 5.0
 nickname: Target name
 output: ./Output
 output_format: pdf
-redshift_value: '0.0306'
+redshift_value: 0.306
 reloc: false
 remove_targ_from_model: true
 spacecraft: /scratch/Project-Fermi/2311-02372-OJ287/5-20190928-20200608/spacecraft/L24031613563107170E9856_SC00.fits

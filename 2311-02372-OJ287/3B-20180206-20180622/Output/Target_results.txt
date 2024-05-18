@@ -15,3 +15,9 @@ b'beta'        :    0.02865 +/-    0.03941
 b'Eb'          :        711 +/-        nan
 Energy flux upper limit (MeV cm-2 s-1): 2.2618085270836442e-05
 Photon flux upper limit (cm-2 s-1): 4.7157571230842687e-08
+
+MCMC results:
+Model: PowerLaw
+N0 (log scale): -10.05790185934994 - 0.11867838873017256 + 0.11652353601679977
+Alpha: 1.9660427036459327 - 0.12472432475453443 + 0.12429409652630885
+Akaike information criterion: 5.818963256723727
