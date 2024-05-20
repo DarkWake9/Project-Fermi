@@ -1,0 +1,23 @@
+Name           : 4FGL J0854.8+2006
+Associations   : ['4FGL J0854.8+2006', 'OJ 287', '3EG J0853+1941']
+RA/DEC         :    133.707/    20.116
+GLON/GLAT      :    206.805/    35.826
+TS             : 4995.36
+Npred          : 7142.32
+Flux           : 5.157e-08 +/- 4.52e-10
+EnergyFlux     : 2.709e-05 +/- 3.64e-07
+SpatialModel   : PointSource
+SpectrumType   : LogParabola
+Spectral Parameters
+b'norm'        :  9.554e-12 +/-   5.55e-14
+b'alpha'       :      2.112 +/-    0.00497
+b'beta'        :    0.02568 +/-    0.00212
+b'Eb'          :        711 +/-        nan
+Energy flux upper limit (MeV cm-2 s-1): 2.8091113243788596e-05
+Photon flux upper limit (cm-2 s-1): 5.346494176973043e-08
+
+MCMC results:
+Model: PowerLaw
+N0 (log scale): -9.865728827019371 - 0.014385248738188139 + 0.014426320405506843
+Alpha: 2.1244185776971243 - 0.01845332139496847 + 0.018518636290712376
+Akaike information criterion: 9.03712962784163
