@@ -1,5 +1,0 @@
-lsp for full data min_period = binwidth
-
-spline always +ve
-
-do analysis from 20 to 100 GeV and use 2 bins
